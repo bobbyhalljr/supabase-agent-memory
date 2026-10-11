@@ -1,0 +1,31 @@
+
+> supabase-agent-memory@1.0.0 test
+> tsx src/test.ts
+
+PASS owner recalls saved fact
+PASS other user cannot recall fact
+PASS unfiltered select still isolated
+PASS forged owner insert denied
+PASS same key across users stays separate
+PASS upsert replaces instead of duplicating
+PASS upsert persists correction
+PASS owner reassignment denied
+PASS other user update affects zero rows
+PASS other user delete affects zero rows
+PASS agent scope applied during recall
+PASS expired fact excluded by database clock
+PASS empty content rejected
+PASS oversized content rejected
+PASS oversized key rejected
+PASS empty agent rejected
+PASS empty source rejected
+PASS anonymous table read denied
+PASS anonymous RPC denied
+PASS missing user claim returns no memory
+PASS recall clamps oversized request to five
+PASS recall clamps zero request to one
+PASS database owns update timestamp
+PASS fact survives database close and reopen
+PASS forget removes stored fact
+PASS forget leaves other user intact
+26/26 checks passed
