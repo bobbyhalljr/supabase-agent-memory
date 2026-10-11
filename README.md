@@ -2,7 +2,7 @@
 
 A small TypeScript preference store for an AI agent: save, correct, recall after restart, and forget, with Postgres ownership policies.
 
-Article: ARTICLE_URL
+Article: https://dev.to/bobbyhalljr/how-to-give-an-ai-agent-persistent-memory-using-supabase-113i
 
 ## Run the database build without a Supabase account
 
